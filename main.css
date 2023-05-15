@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+margin-left: calc(50% - 400px);
+margin-bottom: 80px;
+}
+
+.main-header {
+    margin-top: 10px;
+    align-items: flex-end;
+}
+
+.logo {
+height: 30px;
+margin-top: 20px;
+}
+
+.main-menu {
+    display: flex;
+gap: 40px;
+}
+
+.menu-link {
+color: gray;
+font-size: 17px;
+text-decoration: none;
+}
+
+.menu-link:hover {
+    text-decoration: underline;
+}
+
+.menu-link:hover {
+    text-decoration: underline;
+}
+
+.header-btn {
+background-color: rgb(65, 10, 65);
+color: white; 
+padding: 5px 15px;
+border-radius: 15px;
+text-decoration: none;
+}
+
+.header-btn:hover {
+    background-color: rgb(124, 124, 130);
+    text-decoration: underline;
+    cursor:e-resize;
+}
+.left-column {
+width: 40%;
+}
+
+.title {
+
+}
+
+.description {
+    line-height: 25px;
+}
+.right-column {
+width: 50%;
+}
+
+.title {
+font-size: 40px;
+}
+
+.main-btn {
+    display: inline-block;
+padding: 15px 35px;
+background-color: purple;
+color: white;
+border-radius: 118px;
+font-size: 20px;
+text-decoration: none;
+margin-top: 20px;
+}
+
+.main-btn:hover {
+background-color: rgb(65, 10, 65);
+border-radius: 5px;
+
+}
+.right-column {
+
+}
