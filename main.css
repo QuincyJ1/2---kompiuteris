@@ -12,7 +12,7 @@ margin-bottom: 80px;
 }
 
 .main-header {
-    margin-top: 10px;
+    margin-top: 0.6em;
     align-items: flex-end;
 }
 
@@ -74,18 +74,18 @@ font-size: 40px;
 
 .main-btn {
     display: inline-block;
-padding: 15px 35px;
+    font-size: 20px;
+padding: 0.75em 1.75em;
 background-color: purple;
 color: white;
-border-radius: 118px;
-font-size: 20px;
+border-radius: 5.9em;
 text-decoration: none;
-margin-top: 20px;
+margin-top: 1em;
 }
 
 .main-btn:hover {
 background-color: rgb(65, 10, 65);
-border-radius: 5px;
+border-radius: 0.25em;
 
 }
 .right-column {
